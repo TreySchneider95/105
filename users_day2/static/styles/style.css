@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+nav li a{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+}
+.user-form{
+    background-color: lightgray;
+    padding: 40px;
+    border-radius: 17px;
+    margin: 15px;
+}
+.error p{
+    border-radius: 17px;
+}
+.submit-btn{
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 17px;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+}
+.color input{
+    width: 150px;
+    height: 50px;
+}
+.reg-input input{
+    background-color: red;
+}
+.wrong input{
+    background-color: rgb(241, 128, 128);
+}
