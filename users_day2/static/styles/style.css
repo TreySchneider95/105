@@ -41,3 +41,10 @@ nav li a{
 .wrong input{
     background-color: rgb(241, 128, 128);
 }
+.user-table{
+    width: 80%;
+    margin: 25px;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}

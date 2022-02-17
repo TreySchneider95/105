@@ -6,13 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/styles/style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <nav id="nav-bar">
     </nav>
     <h1>Home</h1>
+    <div class="container justify-content-center">
+        <table class="table-striped user-table">
+            <thead>
+                <tr>
+                    <th>Email:</th>
+                    <th>First Name:</th>
+                    <th>Last Name:</th>
+                    <th>Age:</th>
+                    <th>Adddress:</th>
+                    <th>Phone Number:</th>
+                    <th>Payment:</th>
+                    <th>Color:</th>
+                </tr>
+            </thead>
+            <tbody id="userList">
+    
+            </tbody>
+        </table>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="static/script/script.js"></script>    
+    <script src="static/script/storeManager.js"></script>    
+    <script src="static/script/list.js"></script>
     <script>
         $('#nav-bar').load('nav.html')
     </script>
