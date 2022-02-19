@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+nav li a{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+}
+.user-form{
+    background-color: lightgray;
+    padding: 40px;
+    border-radius: 17px;
+    margin: 15px;
+}
+.error p{
+    border-radius: 17px;
+}
+.submit-btn{
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 17px;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+}
+.color input{
+    width: 150px;
+    height: 50px;
+}
+.reg-input input{
+    background-color: red;
+}
+.wrong input{
+    background-color: rgb(241, 128, 128);
+}
+.user-table{
+    width: 80%;
+    margin: 25px;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.center-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    align-items: center;
+    border: solid 3px grey;
+    padding: 50px 15px;
+    background-color: lightgray;
+    border-radius: 7px;
+}
+.login-container input{
+    margin: 5px 0;
+    border: solid black 2px;
+    border-radius: 7px;
+    padding: 3px;
+}
+.login-container button{
+    border: solid black 2px;
+    border-radius: 7px;
+    width: 70px;
+    margin: 5px 0;
+}
